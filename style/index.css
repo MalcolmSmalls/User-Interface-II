@@ -41,49 +41,74 @@ footer, header, hgroup, menu, nav, section {
 
 html {
     font-size:62.5%;
+    font-family: 'Abel', sans-serif;
 }
 
 h1 {
     font-size:5rem;
-    color:#264653;
+    color:#fca311;
     text-transform:uppercase;
+    font-family: 'Anton', sans-serif;
 }
 
 h2 {
     font-size:3rem;
-    color:#e76f51;
+    color:#14213d;
 }
 
+footer h2 {
+    font-size:3rem;
+    color:#e5e5e5;
+}
 
 header {
-    background-color:#e9c46a;
+    background-color:#14213d;
     padding:10px 60px;
 }
 
-nav {
-    padding-left:20px;
-}
 
 button {
-    padding:10px;
-    background-color:#264653;
+    padding:9px;
+    background-color:#fca311;
+    font-size:1.8rem;
+    transition:.3s;
 }
 
 button:hover {
-    background-color: #2a9d8f;
-    color: #264653;
+    background-color: #e5e5e5;
+
 }
 
 a { 
     text-decoration:none;
-    color:#e76f51;
+    color:#ffffff;
+    font-family: 'Permanent Marker', cursive;
+}
+
+a:hover {
+    color: black;
 }
 
 body{
     font-size:1.8rem;
     line-height:1.5;
     color:#264653;
-    background-color:#f4a261;
+    background-color:#e5e5e5;
+}
+
+.row {
+    display:flex;
+    justify-content:space-evenly;
+    padding:10px;
+}
+
+.row img {
+    width:300px;
+    height:300px;
+}
+
+.row p {
+    text-align:center;
 }
 
 .top-section{
@@ -112,5 +137,6 @@ body{
 
 footer {
     text-align:center;
-    background-color: #e9c46a;
+    background-color: #14213d;
+    padding: 30px;
 }
