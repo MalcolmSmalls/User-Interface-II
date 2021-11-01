@@ -1,1 +1,210 @@
 /* Add CSS styling here */
+/*CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0%;
+    margin:0;
+    max-width:100%;
+    border:0px solid grey;
+}
+
+h1{
+    color:#ffdb26;
+    text-transform:uppercase;
+    font-size:10rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2{
+    color:#fff;
+    text-transform:uppercase;
+    font-size:4rem;
+    font-family: 'Bebas Neue', cursive;    
+}
+
+a{
+    text-decoration:none;
+    color: white;
+    font-family: 'Bebas Neue', cursive;    
+}
+
+a:hover{
+    color:#771a8c;
+    font-weight:900;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+button {
+    font-family: 'Bebas Neue', cursive;
+    font-size:2rem;
+    padding:1% 9%;
+}
+
+html {
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+    color:#fff;
+    background-color:white;
+    font-family: 'Bebas Neue', cursive; 
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    position:fixed;
+    width:100%;
+    top:0;
+    background-color:rgba(249, 26, 117,.9);
+}
+
+.links {
+    width:25%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.goatlogo {
+    width:2%;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+#home {
+    height:100vh;
+    background-image:url('../Photos/header.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+
+}
+
+#home button {
+    color: #f91a75;
+    transition:1s;
+}
+
+#home button:hover{
+    color:white;
+    background-color: #f91a75;
+
+}
+
+#projects {
+
+}
+
+.container {
+    background-color: #f91a75;
+    padding-top:50px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.portfolio1, .portfolio2, .portfolio3, .portfolio4, .portfolio5, .portfolio6, .text {
+    width:30%;
+
+}
+
+.portfolio1{
+    background-image:url('../Photos/beatspage.jpg');
+}
+
+.portfolio2{
+    background-image:url('../Photos/orangerap.jpg');
+}
+
+.portfolio3{
+    background-image:url('../Photos/nudy.jpg');
+}
+
+.portfolio4{
+    background-image:url('../Photos/begoat.png');
+}
+
+.portfolio5 {
+    background-image:url('../Photos/bigchop.png');
+}
+
+.portfolio6 {
+    background-image:url('../Photos/avocado.jpeg');
+}
+.text {
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+
+.bgimg {
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:400px;
+    margin:3px;
+}
+
+footer {  
+    background-color:white;
+    text-align:center;
+   }
+   
+   footer a {
+       color:white;
+   }
+   
+   footer a:hover {
+       color:#f91a75;
+       padding:1%;
+   }
+   
+   footer button {
+       background-color:black;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       border-radius:5px;
+       transition:1s;
+   }
+   
+   footer button:hover {
+       background-color: #771a8c;
+       color:white;
+       padding:1%;
+   }
